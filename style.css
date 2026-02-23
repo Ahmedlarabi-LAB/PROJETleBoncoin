@@ -1,0 +1,75 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #FF6600;
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.search-bar {
+    display: flex;
+    width: 40%;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.user-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.user-icons a {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Menu catégories */
+.categories-menu {
+    background: #f5f5f5;
+    padding: 10px 0;
+}
+
+.categories-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.categories-list i {
+    margin-right: 5px;
+}
